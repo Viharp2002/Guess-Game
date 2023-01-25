@@ -29,7 +29,7 @@ const easyMode = ()=>{
     else
     {
         strike = 0 ;
-        document.getElementById("strike").innerHTML = "Your Guess: 0";
+        document.getElementById("strike").innerHTML = `Your Strike: 0`;
     }
     check = 0;
     click1 = 1;
@@ -50,7 +50,7 @@ const hardMode = ()=>{
     else
     {
         strike = 0 ;
-        document.getElementById("strike").innerHTML = "Your Guess: 0";
+        document.getElementById("strike").innerHTML = "Your Strike: 0";
     }
     check = 0;
    click2 = 1;
